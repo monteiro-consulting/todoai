@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "todoai": {
+      "command": "python",
+      "args": ["C:/Users/vmont/todoto/mcp/server.py"],
+      "env": {
+        "TODOAI_DATA_DIR": "C:/Users/vmont/.todoai"
+      }
+    }
+  }
+}

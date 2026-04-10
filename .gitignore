@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+dist/
+build/
+*.egg
+*.egg-info/
+
+# Tauri build output
+app/src-tauri/target/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Claude local config
+.claude/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
